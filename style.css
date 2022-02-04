@@ -1,0 +1,81 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.vl {
+    border-left: 1.5px solid white;
+    height: 250px;
+}
+
+.arrow {
+    margin-top: -10px;
+}
+
+.heroCTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textCTA {
+    margin-bottom: 15px;
+    transform: rotate(-90deg);
+}
+
+.skillsIcons {
+    font-size: 3em;
+}
+
+.scaleIcon {
+    transform: scale(250%);
+}
+
+.title {
+    font-family: robotoBold;
+}
+
+.subtitle {
+    font-family: robotoLight;
+}
+
+p {
+    font-family: robotoRegular;
+}
+
+button {
+    font-family: robotoRegular;
+}
+
+.certsOrg {
+    font-family: robotoLight;
+}
+
+.portTech {
+    font-family: robotoMedium;
+    margin-top: 1rem;
+}
+
+.portImg:hover {
+    transform: scale(110%);
+    transition: all .2s ease-in-out;
+}
+
+@media (min-width: 1215px) {
+    .aboutMobile {
+        margin-top: -1.5rem;
+    }
+}
+
+@media (max-width: 1215px) {
+    .aboutMobile {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroCTA {
+        display: none;
+    }
+}
