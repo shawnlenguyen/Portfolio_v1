@@ -4,8 +4,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.hero-img {
+    margin-top: 3em;
+}
+
 .vl {
-    border-left: 1.5px solid white;
+    border-left: 1.5px solid;
+    color: hsl(0, 0%, 48%);
     height: 250px;
 }
 
